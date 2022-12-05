@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #545454;
+}
+
+.header {
+    padding: 10px;
+    font-family: Arial;
+    background-color: #566573;
+    color: black;
+    background-image: url("../images/mountaintop.png");
+    background-size: cover;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.header-url {
+    color: black;
+}
+
+.headshot img {
+    height: 100px;
+    margin-left: 80px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #000000;
+}
+
+.content {
+    display: inline-block;
+    padding: 25px;
+    height: 230px;
+    width: 100%;
+    font-family: arial;
+    background-color: #566573;
+    color: #ecf0f1;
+    border: 5px solid #545454;
+    border-radius: 10px;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.image-set {
+    display: flex;
+    justify-content: center;
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.2s;
+    padding: 15px;
+}
+
+.content img:hover {
+    transform: scale(1.2);
+}
+
+.image-box {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.text {
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact-a {
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: arial;
+    text-align: center;
+    color: #ecf0f1;
+}
